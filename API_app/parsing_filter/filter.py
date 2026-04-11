@@ -17,7 +17,7 @@ def filter_news(news: dict):
     result = []
 
     for article in articles:
-
+    #в словарях лучше действовать через функцию  get
         if (
             article['title'] and article['title'].strip() and
             article['url'] and
